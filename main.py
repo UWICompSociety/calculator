@@ -18,8 +18,6 @@ def start():
         num1 = int(input("Enter the first number\n"))
         num2 = int(input("Enter the second number\n"))
         print("Product: " + str(num1 * num2))
-
-
 # main function in python
 if __name__ == "__main__":
     start()
