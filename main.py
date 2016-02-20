@@ -2,7 +2,7 @@ __author__ = 'javon'
 
 
 def start():
-    choice = "Press 1 to add two numbers"
+    choice = raw_input("Press 1 to add two numbers")
     if choice == 1:
         #accept numbers and add them here
         pass
