@@ -2,7 +2,7 @@ __author__ = 'javon'
 
 
 def start():
-    choice = input("Press 1 to add\nPress 2 to subtract two numbers\nPress 3 to find product\n")
+    choice = input("Press 1 to add\nPress 2 to subtract two numbers\nPress 3 to find product\nPress 4 to find the exponent of a number")
     if choice == 1:
         # accept numbers and add them here
         num1 = int(input("Enter the first number: \n"))
@@ -18,6 +18,13 @@ def start():
         num1 = int(input("Enter the first number\n"))
         num2 = int(input("Enter the second number\n"))
         print("Product: " + str(num1 * num2))
-# main function in python
+    elif  choice == 4:
+    	# accepts two integers, a number and its index/power. The result is printed
+	num1 = int(input("Enter the first number:\n- "))
+	num2 = int(input("Enter the second number:\n- "))
+	print("The result of ",num1,"raised by ",num2," = ",num1**num2)
+
+
+	# main function in python
 if __name__ == "__main__":
     start()
