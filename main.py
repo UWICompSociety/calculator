@@ -11,6 +11,8 @@ def start():
     
     elif choice == 3:
         print division()
+    elif choice == 4:
+        print nthpower()
     else:
         print "Invalid choice"
 
@@ -34,7 +36,7 @@ def division():
 def nthpower():
     num1 =  input("Enter first number")
     num2 = input("Enter number to raise by")
-    return "Power of "+num1+"and "+num2+": "+str(num1**num2)
+    return "Power of "+str(num1)+"and "+str(num2)+": "+str(num1**num2)
     
 
 #main function in python
