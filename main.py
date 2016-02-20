@@ -13,8 +13,8 @@ def start():
         num1 = int(input("Enter the first number: \n"))
         num2 = int(input("Enter the second number: \n"))
         print("Difference: " + str(num1 - num2))
-
-    if choice == 3:
+    elif choice == 3:
+        # accepts numbers and multiply them here
         num1 = int(input("Enter the first number\n"))
         num2 = int(input("Enter the second number\n"))
         print("Product: " + str(num1 * num2))
