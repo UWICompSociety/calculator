@@ -2,26 +2,24 @@ __author__ = 'javon'
 
 
 def start():
+    # accept numbers
+    num1 = int(input("Enter the first number: \n"))
+    num2 = int(input("Enter the second number: \n"))
+
+    # accept operation
     choice = input("Press 1 to add\nPress 2 to subtract two numbers\nPress 3 to find product\nPress 4 to find the exponent of a number")
+    
     if choice == 1:
-        # accept numbers and add them here
-        num1 = int(input("Enter the first number: \n"))
-        num2 = int(input("Enter the second number: \n"))
+        # adds them here
         print("Sum: " + str(num1 + num2))
     elif choice == 2:
-        # accept numbers and subtracts them here
-        num1 = int(input("Enter the first number: \n"))
-        num2 = int(input("Enter the second number: \n"))
+        # subtracts them here
         print("Difference: " + str(num1 - num2))
     elif choice == 3:
-        # accepts numbers and multiply them here
-        num1 = int(input("Enter the first number\n"))
-        num2 = int(input("Enter the second number\n"))
+        # multiply them here
         print("Product: " + str(num1 * num2))
     elif  choice == 4:
-    	# accepts two integers, a number and its index/power. The result is printed
-	num1 = int(input("Enter the first number:\n- "))
-	num2 = int(input("Enter the second number:\n- "))
+    	# finds the value of a number raised to an index
 	print("The result of ",num1,"raised by ",num2," = ",num1**num2)
 
 
