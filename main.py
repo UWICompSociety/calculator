@@ -1,6 +1,3 @@
-__author__ = 'javon'
-
-
 def start():
 <<<<<<< HEAD
 	message = """\nCalculator menu:\n 
