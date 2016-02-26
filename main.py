@@ -2,7 +2,7 @@ __author__ = 'javon'
 
 
 def start():
-<<<<<<< HEAD
+	
 	message = """\nCalculator menu:\n 
 \t1 - Add\n
 \t2 - Divide\n
@@ -25,7 +25,6 @@ Chose an option: """
 if __name__ == "__main__":
 	start()
 
-=======
     choice = input("Press 1 to add\nPress 2 to subtract two numbers\nPress 3 to find product\n")
     if choice == 1:
         # accept numbers and add them here
@@ -45,4 +44,3 @@ if __name__ == "__main__":
 # main function in python
 if __name__ == "__main__":
     start()
->>>>>>> 1e8ad4f34fe4d0bc4d3ee79f18e48a74a4efa4c9
